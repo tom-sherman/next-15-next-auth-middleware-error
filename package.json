@@ -2,11 +2,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev-turbo": "next dev --turbo",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "next": "canary",
+    "next-auth": "5.0.0-beta.19",
     "react": "19.0.0-rc-6f23540c7d-20240528",
     "react-dom": "19.0.0-rc-6f23540c7d-20240528"
   },
